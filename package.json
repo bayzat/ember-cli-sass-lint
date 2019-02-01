@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-sass-lint",
-  "version": "1.0.5-bayzat.1",
+  "version": "1.0.5-bayzat.2",
   "description": "Pure Node.js sass/scss linting for Ember CLI projects",
   "keywords": [
     "ember-addon",
