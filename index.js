@@ -49,7 +49,7 @@ module.exports = {
 
       return new SassLinter(mergedTrees, this.sassLintOptions);
     }
-    else if (!isAddon && tree.destDir === '/' && type === 'app') {
+    else if (!isAddon && type === 'app') {
       mergedTrees = mergeTrees([
         new Funnel(this.app.trees.app, {
           exclude: ['**/*.js']
